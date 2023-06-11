@@ -35,7 +35,7 @@ function init() {
                   .append('h1')
                   .merge(sampleMetadata)
                   .text(d => `${d.key} : ${d.value}`)
-                  .style('font-size','100%')
+                  .style('font-size','150%')
   
     sampleMetadata.exit().remove()
   
